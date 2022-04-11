@@ -54,6 +54,16 @@ namespace LinkedList
                 temp.next = node;
             }
         }
+
+        //Delete First element 
+        internal Node POP()
+        {
+            if (this.head == null)
+                return null;
+            this.head = this.head.next;
+            return this.head;
+        }
+
         //Display LinkedList Data through Method
         internal void Display()
         {
