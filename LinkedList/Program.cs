@@ -10,6 +10,7 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
+            //Welcome Message
             Console.WriteLine("=-=-=-=-=-Welcome To The Linked List Program-=-=-=-=-=");
             Console.ReadLine();
         }
