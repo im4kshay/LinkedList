@@ -56,12 +56,28 @@ namespace LinkedList
         }
 
         //Delete First element 
-        internal Node POP()
+        internal Node PopFirstElement()
         {
             if (this.head == null)
                 return null;
             this.head = this.head.next;
             return this.head;
+        }
+
+        //Delete Last Element
+        internal Node PopLastElement()
+        {
+            if (head == null)
+                return null;
+            if (head.next == null)
+                return null;
+            Node newNode = head;
+            while (newNode.next.next != null)
+            {
+                newNode = newNode.next;
+            }
+            newNode.next = null;
+            return head;
         }
 
         //Display LinkedList Data through Method

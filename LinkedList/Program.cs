@@ -19,18 +19,18 @@ namespace LinkedList
             linkedList.Add(30);
             linkedList.Add(70);
 
-            //Display Data Before Delete First element 
+            //Display Data Before Delete Last element 
             Console.WriteLine("-----------------------------------------------");
-            Console.WriteLine("Display Data Before Delete First element ::");
+            Console.WriteLine("Display Data Before Delete Last element ::");
             Console.WriteLine("-----------------------------------------------");
             linkedList.Display();
 
-            //Delete First Element
-            linkedList.POP();
+            //Delete Last Element
+            linkedList.PopLastElement();
 
-            //Display Data After Delete First element 
+            //Display Data After Delete Last element 
             Console.WriteLine("-----------------------------------------------");
-            Console.WriteLine("Display Data After Delete First element ::");
+            Console.WriteLine("Display Data After Delete Last element ::");
             Console.WriteLine("-----------------------------------------------");
 
             linkedList.Display();
