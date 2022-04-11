@@ -19,6 +19,9 @@ namespace LinkedList
             linkedList.Add(30);
             linkedList.Add(70);
 
+            //Display Data of Linked List
+            linkedList.Display();
+
             Console.ReadLine();
         }
     }
